@@ -1,1 +1,1 @@
-export const baseUrl = `http://localhost:5050`;
+export const baseUrl = `https://foodapp-1-no62.onrender.com`;
