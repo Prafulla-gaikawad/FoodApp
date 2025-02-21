@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
 
 app.use(
   cors({
-    origin: "http://localhost:3000/",
+    origin: "https://thunderous-bublanina-d574f5.netlify.app",
     methods: ["GET", "POST", "DELETE", "PUT"],
     allowedHeaders: [
       "Content-Type",
