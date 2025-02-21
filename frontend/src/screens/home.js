@@ -14,6 +14,7 @@ function Home() {
   const loadData = async () => {
     let response = await fetch(`${baseUrl}/api/foodData`, {
       method: "POST",
+      credentials: "include",
       headers: {
         "Content-Type": "application/json",
       },
